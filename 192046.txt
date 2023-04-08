@@ -1,0 +1,37 @@
+4. 	mkdir SI_2023_lab1_192046
+	cd SI_2023_lab1_192046
+	git init
+5.	git remote add origin https://github.com/192046/SI_2023_lab1_192046.git
+6.	git add README.md
+	git commit -m "Inital commit"
+	git push
+7.	git add SILab1.java
+	git commit -m "Add java class"
+	git push
+8.	git push origin master
+9.	git branch bug1
+	git branch bug2
+	git branch bug3
+10. 	git checkout bug1
+11.	git add SILab1.java
+	git commit -m "Fix wrong loop for reading"
+12.	git checkout bug2
+13.	git add SILab1.java
+	git commit -m "Fix wrong condition in filterOddNumbers"
+14. 	git checkout bug3
+15.	git checkout bug3
+	git add SILab1.java
+	git commit -m "Fix method sumEvenNumbers"
+16.	git push --all
+17.	git checkout master
+18.	git merge bug1	;	Nema pojaveno konflikt, ort strategy
+19. 	git push
+20.	git merge bug2	;	Nema pojaveno konfilkt, ort strategy
+21.	git push --all
+22. 	git checkout bug3
+23.	git rebase master
+24.	git checkout master	
+25.	git merge bug3 ;	Pojavi VIM baranje za commit poraka, ort strategy
+26.	git push --force;
+
+//	pogreshka napraviv merge na bug2 vo bug1 ama napraviv revert

@@ -1,0 +1,74 @@
+commit 0260520882240d10b9942cd9ee53d29faddc7f55
+Author: 192046 <oleg.milevski@students.finki.ukim.mk>
+Date:   Sat Apr 8 22:51:04 2023 +0200
+
+    Revert "Merge branch 'bug2' into bug1"
+    
+    This reverts commit 85a0dfb2ff2b260fa0b42ffb2e0497c6f235aeeb, reversing
+    changes made to c2942ea5f600f7fbd8442d25c133ff2a597b10fa.
+
+commit 61d33de6b274d6b7f1b1cd0853842ae7ff5af3e2
+Merge: 8023717 85a0dfb
+Author: 192046 <oleg.milevski@students.finki.ukim.mk>
+Date:   Sat Apr 8 22:48:03 2023 +0200
+
+    Merge branch 'bug1'
+
+commit 85a0dfb2ff2b260fa0b42ffb2e0497c6f235aeeb
+Merge: c2942ea 5f9b018
+Author: 192046 <oleg.milevski@students.finki.ukim.mk>
+Date:   Sat Apr 8 22:46:14 2023 +0200
+
+    Merge branch 'bug2' into bug1
+
+commit 8023717448f00fa024e1ae8db7f862e4b9f64f4e
+Author: 192046 <oleg.milevski@students.finki.ukim.mk>
+Date:   Sat Apr 8 22:38:32 2023 +0200
+
+    Revert "Fix method sumEvenNumbers"
+    
+    This reverts commit 3ccd5cadf2efc722558c9892a9c7ab6af6d2a160.
+
+commit dcec3a50ee6ed46dc6c8bb72d2aedd66b18059fd
+Merge: 7eec0dc 3ccd5ca
+Author: 192046 <oleg.milevski@students.finki.ukim.mk>
+Date:   Sat Apr 8 22:31:19 2023 +0200
+
+    Merge branch 'bug3'
+
+commit 7eec0dc32144f711c25f04bfcdaa3dab7eea1f7f
+Merge: c2942ea 5f9b018
+Author: 192046 <oleg.milevski@students.finki.ukim.mk>
+Date:   Sat Apr 8 22:22:02 2023 +0200
+
+    Merge branch 'bug2'
+
+commit 3ccd5cadf2efc722558c9892a9c7ab6af6d2a160
+Author: 192046 <oleg.milevski@students.finki.ukim.mk>
+Date:   Sat Apr 8 22:05:33 2023 +0200
+
+    Fix method sumEvenNumbers
+
+commit 5f9b0189dbbc623238868b746f09cd7608a6036c
+Author: 192046 <oleg.milevski@students.finki.ukim.mk>
+Date:   Sat Apr 8 22:02:34 2023 +0200
+
+    Fix wrong condition in filterOddNumbers
+
+commit c2942ea5f600f7fbd8442d25c133ff2a597b10fa
+Author: 192046 <oleg.milevski@students.finki.ukim.mk>
+Date:   Sat Apr 8 21:59:12 2023 +0200
+
+    Fix wrong loop for reading
+
+commit 5b400cf9dc7094f46b8e13d1bb3160898504a2f9
+Author: 192046 <oleg.milevski@students.finki.ukim.mk>
+Date:   Sat Apr 8 21:51:44 2023 +0200
+
+    Add java class
+
+commit 1f65417e83d7b4c833ec763f68ca431ff1da6373
+Author: 192046 <oleg.milevski@students.finki.ukim.mk>
+Date:   Sat Apr 8 21:27:10 2023 +0200
+
+    Inital commit
